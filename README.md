@@ -16,12 +16,13 @@ This repository serves as a comprehensive resource for ETL projects that can be 
 ## Tools
 <table>
 <tr>
-<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Microsoft_SQL_Server_Logo.svg" alt="SQL Server" align="center" width="100"/></a></td>
-<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Apache_Spark_logo.svg" alt="Apache Spark" align="center" width="100"/></a></td>
-<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/SSIS_logo.png" alt="SSIS" align="center" width="100"/></a></td>
+<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Microsoft_SQL_Server_logo.png" alt="SQL Server" align="center" width="100"/></a></td>
+<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Alteryx_Logo.svg" alt="Alteryx" align="center" width="100"/></a></td>
+<td><a href="#"><img src="Images/logo.png" alt="SSIS" align="center" width="100"/></a></td>
 <td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python" align="center" width="70"/></a></td>
 </tr>
 </table>
+
 
 ## Projects
 
