@@ -76,9 +76,9 @@ Created a Date table in the DWH database using an SQL script.
 - Created an empty table in the DWH database with the same columns as the ODS CallType table. However, in the DWH table, we added a technical key that would serve as a link to the Fact Table.
 - Extracted the data from the ODS CallType table using an OLE DB source component.
 - Implemented a lookup transformation  to verify the existence of the `CallTypeID` in our DWH table.
-  - If the CallTypeID did not exist, we inserted the corresponding row into the dimension table.
-  - If the row already existed, we employed another lookup component to determine if any attributes had changed.
-    - In the case of attribute changes, we updated the table accordingly.
+    - If the CallTypeID did not exist, we inserted the corresponding row into the dimension table.
+    - If the row already existed, we employed another lookup component to determine if any attributes had changed.
+      - In the case of attribute changes, we updated the table accordingly.
 
   ![4.2-dw-call-type](./Images/4.2-dw-call-type.png)
 
