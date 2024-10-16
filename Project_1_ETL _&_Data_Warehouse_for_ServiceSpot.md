@@ -80,16 +80,22 @@ Created a Date table in the DWH database using an SQL script.
     - If the row already existed, we employed another lookup component to determine if any attributes had changed.
       - In the case of attribute changes, we updated the table accordingly.
 
-  ![4.2-dw-call-type](./Images/4.2-dw-call-type.png)
-
+![4.2-dw-call-type](./Images/4.2-dw-call-type.png)
 
 ### 4.3 Dimension Employee
 Similar steps as the CallType dimension but using `EmployeeID` for checks.
 
+![4.2-dw-employee](./Images/4.2-dw-employee.png)
+
 ### 4.4 Fact Table CallData
-- Extracted data and performed referential integrity checks.
-- Stored unmatched records separately while retaining information in the fact table.
+- In the Fact table CallData, we included the technical keys for our dimension tables and numerical information related to the calls. Our workflow consisted of extracting data from the ODS CallData table and performing referential integrity checks with the dimension tables.
+- For each row in the fact table, we validated if the EmployeeID, CallTypeID, and CallDate existed in their respective dimension tables. In case any of these keys did not find a match in the dimension tables, we handled the reject information separately by storing it in a dedicated table within our ADM database. However, we still retained the information in the
+fact table, assigning it the ID "-1" to indicate the lack of a corresponding dimension entry.
+
+![4.3-dw-call-data](./Images/4.3-dw-call-data.png)
 
 ## 5. Packages Scheduler
 
 We implemented a scheduler package to automate the workflow for the STA, ODS, and DWH databases in their designated order.
+
+![5-packages](./Images/5-packages.png)
