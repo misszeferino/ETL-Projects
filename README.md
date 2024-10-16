@@ -2,7 +2,7 @@
 
 Welcome to the ETL Projects Repository! This repository contains a collection of ETL projects developed for various school assignments and real-life scenarios encountered during my work as a Data Analyst.
 
-## Table of Contents
+## Table of Contents 
 
 - [Introduction](#introduction)
 - [Tools](#tools)
