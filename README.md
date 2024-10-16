@@ -29,7 +29,7 @@ This repository serves as a comprehensive resource for ETL projects that can be 
    - Industry: IT & Customer Service
    - Description: Developed an ETL process to load call center data into an enterprise data warehouse using SSIS. The project included data cleansing, transformation, and loading into a star schema.
    - Tools: SSIS, SQL Server
-   - Project File: [Link to project documentation](Project_1_ETL _&_Data_Warehouse_for_ServiceSpot.md)
+   - Project File: [Link to project documentation](Project_1_ETL_Data_Warehouse_for_ServiceSpot.md)
 
 ## Contact
 
