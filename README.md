@@ -16,10 +16,9 @@ This repository serves as a comprehensive resource for ETL projects that can be 
 ## Tools
 <table>
 <tr>
-<td><a href="#"><img src="https://commons.wikimedia.org/wiki/File:Microsoft_SQL_Server_Logo.png" alt="SQL Server" align="center" width="100"/></a></td>
-<td><a href="#"><img src="https://commons.wikimedia.org/wiki/File:Alteryx_logo.svg" alt="Alteryx" align="center" width="100"/></a></td>
+<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Microsoft_SQL_Server_Logo.png" alt="SQL Server" align="center" width="100"/></a></td>
+<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Alteryx_logo.svg" alt="Alteryx" align="center" width="100"/></a></td>
 <td><a href="#"><img src="Images/ssis-logo.jpeg" alt="SSIS" align="center" width="100"/></a></td>
-<td><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python" align="center" width="70"/></a></td>
 </tr>
 </table>
 
